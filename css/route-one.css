@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* --------------导航栏部分------------ */
+/* ---------导航栏上面部分------------------- */
+.header-tp{
+    width: 100%;
+    height: 40px;
+    background-color: #111111;
+    cursor: pointer;
+}
+.header-tp .rt{
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-tp .rt ul{
+    float: right;
+    width: 460px;
+    height: 40px;
+}
+
+.header-tp .rt ul li{
+    width: 85px;
+    height: 40px;
+    float: left;
+}
+
+.header-tp  ul li:nth-of-type(1){
+    background: url(../img/lag.png) no-repeat 0px 3px;
+}
+.header-tp  ul li:nth-of-type(2) {
+    background: url(../img/lag.png) no-repeat 0px -30px;
+}
+.header-tp ul li:nth-of-type(3) {
+    background: url(../img/lag.png) no-repeat 0px -63px;
+}
+.header-tp ul li:nth-of-type(4) {
+    background: url(../img/lag.png) no-repeat 0px -97px;
+}
+
+.header-tp  ul li:nth-of-type(1):hover{
+    background: url(../img/lag.png) no-repeat -80px 3px;
+}
+.header-tp  ul li:nth-of-type(2):hover {
+    background: url(../img/lag.png) no-repeat -80px -30px;
+}
+.header-tp ul li:nth-of-type(3):hover {
+    background: url(../img/lag.png) no-repeat -80px -63px;
+}
+.header-tp ul li:nth-of-type(4):hover {
+    background: url(../img/lag.png) no-repeat -80px -97px;
+}
+
+.header-tp ul li:nth-of-type(5){
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background: url(../img/b7.png) no-repeat 10px 8px;
+    background-color: #008ACE;
+}
+.header-tp .rt li span{
+    display: inline-block;
+    color: #264A5B;
+    text-indent: 40px;
+}
+/* ---------导航栏上面部分------------------- */
+.header-bm{
+    width: 100%;
+    background-color: #002B49;
+}
+
+.header-bm .cr{
+    width: 1000px;
+    height: 63px;
+    margin: 0 auto;
+    
+}
+.header-bm .cr .dh{
+    height: 63px;
+    width: 1000px;
+}
+.header-bm .cr .dh>li{
+    float: left;
+    height: 63px;
+    /* background-color: sandybrown; */
+}
+.header-bm .cr .dh>li>a{
+    font:bold 16px/63px "微软雅黑";
+    margin: 20px;
+    color: #fff;
+}
+.header-bm .cr .dh img{
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+/* -------------------nav------------------- */
+.nav{
+    width: 1000px;
+    height: 50px;
+    /* background-color: rgb(131, 131, 160); */
+    line-height: 50px;
+    margin: 0 auto;
+    color: #B39898;
+    border-bottom: 1px solid #B39898;
+}
+.nav a{
+    color: #333333;
+}
+.nav a:hover{
+    color: #3389D7;
+}
+
+/* --------------内容部分--------------- */
+
+.main{
+    width: 1000px;
+    height: 350px;
+    /* background-color: cyan; */
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.main>.pic>img{
+    width: 500px;
+    height: 280px;
+}
+.main .pic{
+    float: left;
+    width:50%;
+    height: 350px;
+    font-size: 0;
+}
+.small-pic{
+    width: 100%;
+    height: 69px;
+    /* background-color: antiquewhite; */
+}
+.small-pic img{
+    width: 100%;
+    height: 100%;
+}
+.main .night{
+    float: right;
+    width: 48%;
+    height: 350px;
+}
+
+.night h3{
+    color: #111;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.main .night img{
+    height: 25px;
+    margin: 15px 0;
+}
+.night-bm{
+    width: 100%;
+    height: 240px;
+    background-color: #DFF4FF;
+}
+.night-bm h3{
+    width: 100%;
+    height: 50px;
+    background-color: #6BC1FA;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.night-bm  li{
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #505050;;
+}
+.night-bm  li span{
+    display: inline-block;
+    width: 73px;
+    border-radius:  25px;
+    background-color: #fff;
+    margin:0 15px 0 25px;
+    text-align: center;
+}
+
+.night-bm li a{
+    font-size: 18px;
+    color: #ff6600;
+}
+
+/* -- -----------中间内容部分----------------- -- */
+.conter{
+    width: 1000px;
+    height: 1060px;
+    border: 1px solid #D1CFCF;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.conter .title{
+    width: 100%;
+    height: 45px;
+    background-color: #555D61;
+    line-height: 37px;
+    color: #fff;
+    
+}
+.title span{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    background-color: #fff;
+    text-align: center;
+    margin:5px 10px 0 20px;
+    color: #2F95E2;
+}
+
+/* -- -----------大标题部分------------- -- */
+.conter>h1{
+    height: 25px;
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+    line-height: 25px;
+    color: #333;
+    font-weight: 500;
+    font-size: 25px;
+    background: url(../img/dmoe0g08000.png) no-repeat center -117px;
+}
+
+/* --------------线路介绍部分-------------- */
+.plan{
+    width: 100%;
+    background-color: aqua;
+    margin: 0 auto;
+}
+/* --------------线路介绍左边空白部分---------*/
+
+.plan-lt{
+    width: 20%;
+    height: 891px;
+    float: left;
+    /* background-color: royalblue; */
+    position: relative;
+   
+} 
+/* 定位部分  */
+.plan-lt .icon{
+    width: 25px;
+    height: 25px;
+    background: url(../img/dmoe0g08000.png) no-repeat -72px -283px;
+    position: absolute;
+    top: 8px;
+    left: 132px;
+}
+
+ .plan-lt .day{
+     width: 140px;
+     height: 40px;
+     /* background-color: blue; */
+     text-align: center;
+     line-height: 40px;
+     border-right: 1px solid #CDCDCD;
+ }
+ .plan-lt .day>span{
+     padding: 6px;
+     font-size: 14px;
+     font-weight: 700;
+     background-color: #01a2ea;
+     color: #fff;
+     border-radius: 4px;
+ }
+
+ .plan-lt .one{
+    background-color: #01a2ea;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    left: 178px;
+    top: 8px;
+ }
+
+ .plan-lt .round{
+    width: 8px;
+    height: 8px;
+    border: 3px solid #eee;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 30px;
+    right: -8px;
+ }
+
+/* --------------线路介绍右边内容部分-----------*/
+.plan-rt{
+    box-sizing: border-box;
+    padding: 0 50px;
+    width: 80%;
+    float: right;
+    /* background-color: pink; */
+    border-left: 1px solid #EEEEEE;
+}
+.plan-rt p{
+    color: #666;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.plan-rt p:nth-of-type(1){
+    height: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #333;
+    font-size: 18px;
+    border-bottom: 1px solid #D1CFCF;
+}
+.plan-rt h3{
+    padding: 12px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: #333;
+}
+.plan-rt h3:nth-of-type(4){
+    border-top: 1px dotted #D1CFCF;
+    border-bottom: 1px dotted #D1CFCF;
+}
+.plan-rt span{
+    color: red;
+}
+.plan-pic{
+    display: flex;
+    justify-content: space-between; 
+}
+.plan-pic>img{
+    width: 223px;
+}
+/* -------------下面文本内容-------------- */
+.bottom-txt{
+    width: 1000px;
+    height: 560px;
+    margin: 0 auto;
+    border: 1px solid #D1CFCF;
+    margin-top: 15px;
+    padding:0 50px;
+    box-sizing: border-box;
+}
+
+.bottom-txt>h1{
+    height: 25px;
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+    line-height: 25px;
+    color: #333;
+    font-weight: 500;
+    font-size: 25px;
+    background: url(../img/dmoe0g08000.png) no-repeat center -117px;
+}
+
+.bottom-txt p{
+    color: #666;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 5px;
+    text-indent: 12px;
+}
+
+
+
+
+
+/* ---------------------底部内容------------------ */
+
+.footer{
+    width: 100%;
+    height: 270px;
+    background-color: #282828;
+    box-sizing: border-box;
+}
+.footer-txt {
+    width: 1000px;
+    margin: 0 auto;
+    height: 150px;
+    /* background-color: paleturquoise;  */
+    margin-top: 50px;
+    padding-top: 30px; 
+}
+
+/* --------------------底部上面-------------- */
+.footer-txt div{
+    width: 420px;
+    height: 150px;
+    /* background-color: palegreen; */
+    float: left;
+}
+
+
+/* ---------------左边部分--------- */
+.footer .footer-txt .left{
+    float: left;
+    color: #fff;
+    border-right: 1px solid #424242;
+}
+
+.footer .left h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer  .footer-txt .left p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #f2f2f2;
+    letter-spacing: 3px;
+}
+
+/* ---------------右边部分--------- */
+.footer .right h3{
+    line-height: 19px;
+    padding: 5px 0 10px 30px;
+    font-weight: bold;
+    color: #3389d7;
+}
+.footer .right p{
+    width: 100%;
+    height: 30px;
+    text-indent: 30px;
+    margin-top: 10px;
+    background: url(../img/arrow_bottom.png) no-repeat 14px 7px;
+    color: #A5A5A5;
+}
+
+.footer .right p img{
+    height: 22px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+ /* --------------------底部下面--------------  */
+
+ .footer .bottom{
+     text-align: center;
+     width: 1000px;
+     height: 60px;
+     /* background-color: blue; */
+     margin: 30px auto;
+     border-top: 1px solid #424242;
+ }
+
+ .footer .bottom p{
+     line-height: 60px;
+     font-size: 14px;
+ }
+ .footer .bottom a{
+     color: #fff;
+ }
+
+ .footer .bottom span{
+    color: #A5A5A5;
+ }
+
+ .footer .bottom a:hover{
+    color:  #A5A5A5;
+}
